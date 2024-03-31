@@ -1,0 +1,11 @@
+.Home{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 12px;
+}
+.title1{
+    text-align: center;
+    flex:1;
+}

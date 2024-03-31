@@ -1,0 +1,15 @@
+.App{
+    margin: 30px;
+    padding: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    
+  
+  }
+  .Link{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
