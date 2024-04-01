@@ -4,12 +4,12 @@ import { useLoaderData, useNavigation } from 'react-router-dom'
 const Data = () => {
     const DogUrl=useLoaderData();
     const navigation =useNavigation();
-    if(navigation.state==='loading'){
-        return <h1>Loading...</h1>
-    }
+     return navigation.state==='loading'?( <h1>Loading...</h1>):
+       
+    
     // à la place de useEffect on utilise useLoaderData
     
-  return (
+  (
     <div>
         <img src={DogUrl} alt=''/>
     </div>

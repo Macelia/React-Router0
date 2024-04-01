@@ -1,4 +1,4 @@
-.App{
+/* .App{
     margin: 30px;
     padding: 30px;
     font-family: 'Courier New', Courier, monospace;
@@ -7,9 +7,56 @@
   }
   .Link{
     margin-top: 40px;
+    margin: 30px;
+    padding: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     
+    background: linear-gradient(135deg, #f6d365, #fda085);
+     
+    
+  } */
+
+  /* App.css */
+
+  .App {
+    background-color: #12db9f;
+    color: #000; /* Changer la couleur du texte pour qu'il soit lisible sur le fond noir */
   }
+
+/* Style de la barre de navigation */
+
+.Link {
+  background-color: #333;
+  padding: 10px;
+  margin-bottom: 20px;
+
+  display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+    background: linear-gradient(135deg, #f6d365, #fda085);
+}
+
+.Link a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.Link a:hover {
+  text-decoration: underline;
+}
+
+/* Style du contenu de la page */
+.Content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}

@@ -1,15 +1,18 @@
 import React from 'react'
-import { useLoaderData } from 'react-router-dom';
+import './Home.css'
+import { useLoaderData, useNavigation } from 'react-router-dom';
 
 const Contact = () => {
   const users=useLoaderData();
-  return (
+  const navigLoading =useNavigation();
+  return navigLoading.state ==="loading"?( <h1>Loading...</h1>):
+ (
     
-    <div>
+    <div className="contact-container">
       <h1> Mes Contacts 🧑‍🦰 :</h1>
       {
         users.map(user=>(
-          <div key={user.id}>
+          <div key={user.id} className="user-card">
             <h1>User:{user.id}</h1>
             <p>name:{user.name}</p>
             <p>Username:{user.username}</p>

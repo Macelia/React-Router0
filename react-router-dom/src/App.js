@@ -39,11 +39,11 @@ const Root =()=>{
       <div className='Link'>
         <Link to='/' >home</Link>
         <Link to='/data'>data</Link>
-        <Link to='/data0'></Link>
+        <Link to='/data0'>data0</Link>
         <Link to='/contact'>contact</Link>
       </div>
 
-      <div>
+      <div className="Content">
         <Outlet/>
       </div>
   </>
